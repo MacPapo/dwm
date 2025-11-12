@@ -7,9 +7,6 @@ Requirements
 ------------
 In order to build dwm you need the Xlib header files.
 
-On FreeBSD:
-    pkg install sterm libXinerama libX11 libXft fontconfig
-
 
 Installation
 ------------
@@ -40,7 +37,7 @@ like this in your .xinitrc:
 
     while xsetroot -name "`date` `uptime | sed 's/.*,//'`"
     do
-        sleep 1
+    	sleep 1
     done &
     exec dwm
 
